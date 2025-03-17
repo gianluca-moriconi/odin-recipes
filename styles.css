@@ -1,0 +1,58 @@
+*{
+    font-family: 'Futura', 'Arial', 'Calibri';
+    background-color: rgb(253, 231, 198);
+}
+
+h1{
+    font-family: 'Futura', 'Arial', 'Calibri';
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Futura', 'Arial', 'Calibri';
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.schedule,
+.ing-list,
+.rec-list{
+    font-size: 25px; 
+    display: flex; /*trasforma ul in un contenitore flessibile*/
+    flex-direction: column; /*controlla il contenitore flessibile dicendo di mettere ogni elemento in colonna, uno sotto l'altro, con flexbox*/
+    align-items: center; 
+    padding-left: 0;    /*rimuove la spaziatura sinistra predefinita, che di solito sposta tutto verso dx*/
+}
+.schedule,
+.ing-list li,
+.rec-list li {
+    text-align: center; 
+}
+
+.home-button{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+.prev-pic{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.prev-pic img{
+     border: 3px solid black;
+    }
+
+.descrip{
+text-align: center;
+font-size: 25px;
+}
+
+.ing-list{
+    font-size: 20px;
+}
+
